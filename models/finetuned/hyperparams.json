@@ -1,0 +1,10 @@
+{
+    "architecture": "EfficientNetB0",
+    "optimizer": "Adam",
+    "initial_lr": 0.001,
+    "fine_tune_lr": 1e-05,
+    "batch_size": 32,
+    "epochs_head": 20,
+    "epochs_finetune": 10,
+    "loss_func": "sparse_categorical_crossentropy"
+}

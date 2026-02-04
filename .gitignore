@@ -1,0 +1,40 @@
+# =========================
+# Data (local only)
+# =========================
+data/
+features/
+outputs/
+
+# =========================
+# Model artifacts (ignore weights, keep folders)
+# =========================
+*.keras
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.npy
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
